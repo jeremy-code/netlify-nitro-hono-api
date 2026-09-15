@@ -13,7 +13,7 @@ export default defineConfig({
           src: fileURLToPath(
             import.meta.resolve("libexif-wasm/output/libexif.wasm"),
           ),
-          dest: "server/_libs",
+          dest: "../.netlify/functions-internal/server/_libs",
           rename: { stripBase: true },
         },
       ],
