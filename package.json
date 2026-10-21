@@ -8,7 +8,7 @@
   },
   "devDependencies": {
     "@types/node": "latest",
-    "hono": "^4.13.7",
+    "hono": "^4.13.11",
     "nitro": "latest",
     "typescript": "latest",
     "vite": "^8.3.0",
